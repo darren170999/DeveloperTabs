@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "DeveloperTabs",
+  "description": "Developer Tabs is developed by Darren, Rama, Syed",
+  "version": "1.0.1",
+  "icons": {
+    "16" : "/public/braces16.png",
+    "128" : "/public/braces128.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.google.com/*"],
+    "css": ["main.css"]
+  }]
+}
